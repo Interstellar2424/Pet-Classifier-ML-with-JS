@@ -1,4 +1,4 @@
-# Rock-Paper-and-Scissors-ML
+# Pet-Classifier-ML-with-JS
 <hr>
 
 <h1>Description</h1>
