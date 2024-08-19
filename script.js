@@ -26,10 +26,9 @@ startbtn.addEventListener("click", () => {
     playgame(userface);
 });
 
-function classifyface(gesture){
+function classifyface(){
     classifier.classify(video, (results) => {
         userface = results[0].label;
-        gesture.innerText = `Your Gesture ${userface}`;
         classifyface();
     });
 }
